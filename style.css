@@ -1,0 +1,16 @@
+body{
+    background-image: linear-gradient(
+        to right bottom,
+        rgb(53, 88, 100)
+        rgba(87, 50, 87)
+    ),
+    url(media/bed.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div{
+    height: 100vh;
+}
+ul{
+    list-style: none;
+}
