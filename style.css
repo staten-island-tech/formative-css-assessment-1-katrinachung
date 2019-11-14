@@ -1,16 +1,30 @@
-body{
+h1{
+    text-transform: uppercase;
+    color: rebeccapurple;
+    font-size: 75;
+}
+div{
     background-image: linear-gradient(
         to right bottom,
-        rgb(53, 88, 100)
-        rgba(87, 50, 87)
-    ),
+        rgba(76, 37, 83, 0.7),
+        rgba(90, 33, 73, 0.7)),
     url(media/bed.jpg);
     background-size: cover;
     background-position: center;
-}
-div{
     height: 100vh;
 }
 ul{
     list-style: none;
+}
+img{
+    height: 50vh;
+    filter: blur(7px);
+}
+body{
+    text-align: center;
+}
+li{
+    text-transform: lowercase;
+    color: mediumslateblue;
+    font-size: 40;
 }
