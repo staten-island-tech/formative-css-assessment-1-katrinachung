@@ -2,6 +2,7 @@ h1{
     text-transform: uppercase;
     color: rebeccapurple;
     font-size: 75;
+    font-family: sans-serif;
 }
 div{
     background-image: linear-gradient(
